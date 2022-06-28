@@ -1,38 +1,298 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Banner {
+  background: url(./images/bg.jpg)no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.banner-text {
+  width: 500px;
+}
+
+.banner-text h3 {
+  font-size: 50px;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.banner-text p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.navbar {
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.logo {
+  width: 40%;
+}
+
+.logo img {
+  max-width: 220px;
+}
+
+.navbar-ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+}
+
+.banner-btn {
+  margin-top: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.btn-smart {
+  background: #ff454f;
+}
+
+.about {
+  padding: 80px 0px;
+}
+
+.row {
+  display: flex;
+
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.p-25 {
+  padding: 45px;
+}
+
+.about h3 {
+  color:
+    #666666;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about h1 {
+  font-size: 40px;
+  color: #252525;
+  line-height: 40px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.about p {
+  color:
+    #989fae;
+  font-size: 18px;
+  font-weight: 300;
+
+}
+
+.about-btn {
+  margin-top: 35px;
+}
+
+.about-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.shop {
+  width: 100%;
+  background: url(../src/images/freedelivery-bg.jpg) no-repeat;
+  height: 450px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.shop-text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  color: #fff;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.shop-text h4 {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 35px;
+  text-align: center;
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+.shop-text h1 {
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+}
+
+.shop-text h5 {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 44px !important;
+}
+
+.shop-btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+.menu-img{
+  width: 100%;
+  overflow: hidden;
+}
+.menu-img img{
+  width: 100%;
+}
+.menu h3{
+  font-size: 30px;
+  color: rgba(37,37,37,0.7);
+  line-height: 35px;
+  text-align: left;
+  
+  font-weight: 700;
+  font-style: normal;
+
+}
+.menu h1{
+  font-size: 40px;
+  color: #252525;
+  line-height: 40px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  margin:20px 0px;
+}
+.menu p{
+  font-size: 18px;
+  line-height: 29px;
+  font-family: Nunito;
+  color: #8b8b8b;
+}
+.client{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  min-height:250px;
+  background:#252525;
+}
+.client-text{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.client-text span{
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 10px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.client p{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 24px;
+  margin-bottom: 0;
+  opacity: .5;
+  text-align: center;
+  text-transform: capitalize;
 }
