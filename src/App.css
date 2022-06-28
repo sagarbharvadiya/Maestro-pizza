@@ -254,7 +254,7 @@ body {
   color: #252525;
   line-height: 40px;
   text-align: left;
-  font-family: Montserrat;
+  
   font-weight: 700;
   font-style: normal;
   margin:20px 0px;
@@ -295,4 +295,76 @@ body {
   opacity: .5;
   text-align: center;
   text-transform: capitalize;
+}
+.delivery{
+  display: flex;
+  align-items: center;
+  background: url(../src/images/contact-bg.jpg)no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.delivery-form{
+  max-width: 48%;
+  display: block;
+ padding: 50px 0px;
+}
+.form-title h3{
+  font-size: 30px;
+  color: rgba(37,37,37,0.7);
+  line-height: 35px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.form-title h1{
+  font-size: 40px;
+    color: #252525;
+   
+    font-weight: 700;
+    font-style: normal;
+    margin:20px 0px;
+    max-width: 300px;
+    line-height: 50px;
+
+}
+.form-title p{
+  font-size: 18px;
+  line-height: 29px;
+   color: #8b8b8b;
+
+}
+form{
+  margin-top: 30px;
+  color: #8a8a8a !important;
+}
+.d-flex{
+  display: flex;
+  gap: 23px;
+}
+input,select{
+  font-size: 16px;
+  width: 292px;
+  margin: 12px 1px;
+  border: 1px solid rgba(37,37,37,.3);
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+  opacity: .9;
+  padding: 1em 1.5em;
+  transition: all .3s ease-in-out 0s!important;
+  width: 100%;
+  outline: 0;
+}
+.address,select{
+  width: 100%;
+  color: #8a8a8a;
+ 
+}
+.form-btn{
+  margin-top: 20px;
+}
+.form-btn .btn{
+ padding: 20px 235px;
 }
