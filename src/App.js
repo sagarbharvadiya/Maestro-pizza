@@ -1,6 +1,8 @@
 import './App.css';
 // import { useState, useEffect } from "react";
+
 import Header from './Components/Header';
+
 import About from './Components/About';
 import Shop from './Components/Shop';
 import Menu from './Components/Menu';
@@ -15,6 +17,7 @@ import Footer from './Components/Footer';
 function App() {
     return (
       <>
+    
       <Header/>
       <About/>
       <Shop/>
