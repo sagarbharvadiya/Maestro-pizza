@@ -306,7 +306,7 @@ body {
 .delivery-form{
   max-width: 48%;
   display: block;
- padding: 50px 0px;
+ padding: 60px 0px;
 }
 .form-title h3{
   font-size: 30px;
@@ -321,7 +321,6 @@ body {
 .form-title h1{
   font-size: 40px;
     color: #252525;
-   
     font-weight: 700;
     font-style: normal;
     margin:20px 0px;
@@ -360,11 +359,58 @@ input,select{
 .address,select{
   width: 100%;
   color: #8a8a8a;
- 
+}
+select{
+  cursor: pointer;
 }
 .form-btn{
   margin-top: 20px;
 }
 .form-btn .btn{
  padding: 20px 235px;
+}
+
+.PizzaMenu{
+  background:url(./images/Rectangle\ 1.png)no-repeat;
+  display: flex;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+    min-height: 990px;
+    flex-direction: column;
+    color: #fff;
+}
+.PizzaMenu-title{
+  text-align: center;
+  margin-top: 6rem;
+
+}
+.PizzaMenu-item{
+  display: flex;
+  align-items: center;
+  /* min-height: 100vh; */
+  padding: 30px 0px;
+  border-bottom: 2px dashed ;
+  margin: 50px 0px;
+}
+.Pizza-img img{
+  max-width: 150px;
+  display: block;
+  margin-right: 20px;
+}
+.PizzaMenu-item .Pizza-details h1{
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.Pizza-details p{
+  font-size: 18px;
+    line-height: 29px;
+}
+.Pizza-price h3{
+  display: block;
+    font-size: 40px;
+    margin-top: 31px;
 }
