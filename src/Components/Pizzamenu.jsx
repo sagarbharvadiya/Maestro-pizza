@@ -4,7 +4,7 @@ import JsonData from '../Data/data.json'
 const Pizzamenu = () => {
     return (
         <>
-            <div className="PizzaMenu">
+            <div className="PizzaMenu" id='shop'>
                 <div className=" container">
                     <div className="PizzaMenu-title">
                         <h3>Pizza Menu</h3>

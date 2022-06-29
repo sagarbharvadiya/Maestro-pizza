@@ -3,7 +3,7 @@ import React from 'react'
 const Delivery = () => {
     return (
         <>
-            <div className="delivery">
+            <div className="delivery" id='contact'>
                 <div className='container'>
                     <div className='delivery-form'>
                         <div className='form-title'>

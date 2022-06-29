@@ -4,7 +4,7 @@ import img from '../images/pizzamenu-bg.jpg';
 const Menu = () => {
     return (
         <>
-            <div className='menu'>
+            <div className='menu' id='menu'>
                 <div className='container'>
                     <div className='row'>
                         <div className="col-6">

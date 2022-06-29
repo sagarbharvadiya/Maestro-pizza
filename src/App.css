@@ -232,53 +232,61 @@ body {
   align-items: center;
   min-height: 500px;
 }
-.menu-img{
+
+.menu-img {
   width: 100%;
   overflow: hidden;
 }
-.menu-img img{
+
+.menu-img img {
   width: 100%;
 }
-.menu h3{
+
+.menu h3 {
   font-size: 30px;
-  color: rgba(37,37,37,0.7);
+  color: rgba(37, 37, 37, 0.7);
   line-height: 35px;
   text-align: left;
-  
+
   font-weight: 700;
   font-style: normal;
 
 }
-.menu h1{
+
+.menu h1 {
   font-size: 40px;
   color: #252525;
   line-height: 40px;
   text-align: left;
-  
+
   font-weight: 700;
   font-style: normal;
-  margin:20px 0px;
+  margin: 20px 0px;
 }
-.menu p{
+
+.menu p {
   font-size: 18px;
   line-height: 29px;
   font-family: Nunito;
   color: #8b8b8b;
 }
-.client{
+
+.client {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  min-height:250px;
-  background:#252525;
+  min-height: 250px;
+  background: #252525;
 }
-.client-text{
+
+.client-text {
   color: #fff;
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
-.client-text span{
+
+.client-text span {
   display: block;
   font-size: 60px;
   font-weight: 600;
@@ -286,7 +294,8 @@ body {
   margin-top: 10px;
   text-align: center;
 }
-.client p{
+
+.client p {
   font-size: 18px;
   font-style: italic;
   font-weight: 200;
@@ -296,21 +305,24 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.delivery{
+
+.delivery {
   display: flex;
   align-items: center;
   background: url(../src/images/contact-bg.jpg)no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
-.delivery-form{
+
+.delivery-form {
   max-width: 48%;
   display: block;
- padding: 60px 0px;
+  padding: 60px 0px;
 }
-.form-title h3{
+
+.form-title h3 {
   font-size: 30px;
-  color: rgba(37,37,37,0.7);
+  color: rgba(37, 37, 37, 0.7);
   line-height: 35px;
   text-align: left;
   font-family: Montserrat;
@@ -318,99 +330,482 @@ body {
   font-style: normal;
   margin-bottom: 10px;
 }
-.form-title h1{
+
+.form-title h1 {
   font-size: 40px;
-    color: #252525;
-    font-weight: 700;
-    font-style: normal;
-    margin:20px 0px;
-    max-width: 300px;
-    line-height: 50px;
+  color: #252525;
+  font-weight: 700;
+  font-style: normal;
+  margin: 20px 0px;
+  max-width: 300px;
+  line-height: 50px;
 
 }
-.form-title p{
+
+.form-title p {
   font-size: 18px;
   line-height: 29px;
-   color: #8b8b8b;
+  color: #8b8b8b;
 
 }
-form{
+
+form {
   margin-top: 30px;
   color: #8a8a8a !important;
 }
-.d-flex{
+
+.d-flex {
   display: flex;
   gap: 23px;
 }
-input,select{
+
+input,
+select {
   font-size: 16px;
   width: 292px;
   margin: 12px 1px;
-  border: 1px solid rgba(37,37,37,.3);
+  border: 1px solid rgba(37, 37, 37, .3);
   border-radius: 30px;
   font-weight: 600;
   margin: 10px 0;
   opacity: .9;
   padding: 1em 1.5em;
-  transition: all .3s ease-in-out 0s!important;
+  transition: all .3s ease-in-out 0s !important;
   width: 100%;
   outline: 0;
 }
-.address,select{
+
+.address,
+select {
   width: 100%;
   color: #8a8a8a;
 }
-select{
+
+select {
   cursor: pointer;
 }
-.form-btn{
+
+.form-btn {
   margin-top: 20px;
 }
-.form-btn .btn{
- padding: 20px 235px;
+
+.form-btn .btn {
+  padding: 20px 235px;
 }
 
-.PizzaMenu{
-  background:url(./images/Rectangle\ 1.png)no-repeat;
+.PizzaMenu {
+  background: url(./images/Rectangle\ 1.png)no-repeat;
+  background-attachment: fixed;
   display: flex;
-    align-items: center;
-    margin: auto;
-    min-height: 100vh;
-    min-height: 990px;
-    flex-direction: column;
-    color: #fff;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+  min-height: 990px;
+  flex-direction: column;
+  color: #fff;
 }
-.PizzaMenu-title{
+
+.PizzaMenu-title {
   text-align: center;
   margin-top: 6rem;
 
 }
-.PizzaMenu-item{
+
+.PizzaMenu-item {
   display: flex;
   align-items: center;
   /* min-height: 100vh; */
   padding: 30px 0px;
-  border-bottom: 2px dashed ;
+  border-bottom: 2px dashed;
   margin: 50px 0px;
 }
-.Pizza-img img{
+
+.Pizza-img img {
   max-width: 150px;
   display: block;
   margin-right: 20px;
 }
-.PizzaMenu-item .Pizza-details h1{
+
+.PizzaMenu-item .Pizza-details h1 {
   margin-bottom: 20px;
   margin-top: 30px;
   font-size: 24px;
   line-height: 1.1;
   font-weight: 700;
 }
-.Pizza-details p{
+
+.Pizza-details p {
   font-size: 18px;
-    line-height: 29px;
+  line-height: 29px;
 }
-.Pizza-price h3{
+
+.Pizza-price h3 {
   display: block;
-    font-size: 40px;
-    margin-top: 31px;
+  font-size: 40px;
+  margin-top: 31px;
+}
+
+.Pizzamenuitem {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+  background: url(./images/fastfood.jpg)no-repeat;
+}
+
+.Pizzamenuitem .PizzaMenu-title h3 {
+  font-size: 30px;
+  color: rgba(37, 37, 37, 0.7);
+  line-height: 35px;
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Pizzamenuitem .PizzaMenu-title h1 {
+  font-size: 38px;
+  color: #252525;
+  line-height: 40px;
+  margin-top: 20px !important;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Pizzamenuitem .main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.Pizza-item {
+  max-width: 350px;
+  margin: 40px 0px;
+}
+
+.pizza-item-img img {
+  max-width: 250px;
+  margin: auto;
+}
+
+.Pizzamenuitem .Pizza-item h1 {
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Pizzamenuitem .Pizza-item p {
+  font-size: 18px;
+  line-height: 29px;
+  color: #888;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.Pizza-item h3 {
+  font-size: 40px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.Footer {
+  background: #252525;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.Footer-about {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.Footer-text {
+  max-width: 50%;
+}
+
+.Footer-text h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.Footer-text p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 3px;
+  margin: 0 0 10px;
+  max-width: 79%;
+  text-align: justify;
+}
+
+.Footer-text span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 3px;
+  margin: 0 0 10px;
+}
+
+.link {
+  max-width: 200px;
+}
+
+.link h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.link ul li {
+  text-align: left;
+  width: 100%;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.link ul li a {
+  margin-left: 0;
+  font-size: 14px;
+  color: #fff !important;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.link ul {
+  position: relative;
+}
+
+.link ul li::before {
+  content: ">";
+  position: absolute;
+  left: -15px;
+  /* top: 10px; */
+  margin-top: 2px;
+}
+
+.last-link ul li::before {
+  content: none;
+}
+
+.last-link ul li i {
+  font-size: 13px;
+  margin-right: 7px;
+
+}
+
+.link li a:hover {
+  color: #ff454f !important;
+
+}
+
+.social-icon {
+  display: flex;
+  /* justify-content: center; */
+  margin: auto;
+  gap: 24px;
+  margin-top: 6px;
+
+}
+
+.social-icon i {
+  margin: 4px 0px;
+  font-size: 20px;
+}
+
+.social-icon i:hover {
+  color: #ff454f;
+  cursor: pointer;
+}
+
+.copy-right {
+  background: #252525;
+  color: #fff;
+
+}
+
+.text {
+  text-align: center;
+  padding: 20px 0px;
+  border-top: 1px solid red;
+}
+
+/*  */
+@media only screen and (max-width : 768px) {
+  .banner-content {
+    display: block;
+    
+    padding: 20px 25px;
+
+  }
+
+  .banner-text {
+    max-width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  .about {
+    width: 100%;
+    display: block;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .container {
+    width: 100%;
+  }
+
+  .banner-text h3 {
+    font-size: 46px;
+  }
+
+  .banner-text h1 {
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+
+  .banner-text p {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .Pizzamenuitem {
+    display: block;
+  }
+  .shop-text {
+    display: block;
+    padding-top: 35px;
+    width: 100%;
+  }
+  .shop-text h4 {
+    font-size: 23px;
+    
+}
+.shop-text h1 {
+  font-size: 34px;
+ 
+}
+.shop-text h5 {
+  font-size: 23px;
+  
+}
+
+  .menu {
+    display: block;
+  }
+
+  .client {
+    display: block;
+    max-width: 100%;
+  }
+
+  .client-text {
+    display: block;
+    padding: 30px 0px;
+  }
+
+  .employees {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .delivery {
+    display: block;
+    padding: 20px 25px;
+
+  }
+
+  .delivery-form {
+    max-width: 100%;
+  }
+
+  .form-btn .btn {
+    padding: 20px 40px;
+  }
+
+  .PizzaMenu {
+    display: block;
+  }
+
+  .PizzaMenu-item {
+    display: block;
+    margin: auto;
+  }
+
+  .PizzaMenu-title {
+    padding-top: 4rem;
+  }
+
+  .Pizza-img img {
+    max-width: 100%;
+  }
+
+  .Pizza-details,
+  .Pizza-price {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .Pizza-item {
+    max-width: 100%;
+  }
+
+  .Footer {
+    display: block;
+    max-width: 100%;
+    padding: 26px 20px;
+
+
+  }
+
+  .Footer-about {
+    display: block;
+    margin-left: 25px;
+  }
+
+  .Footer-text {
+    max-width: 100%;
+  }
+
+  .link {
+    max-width: 100%;
+
+    margin-top: 33px;
+  }
+  .text {
+   
+    padding: 20px 6px;
+  
+}
 }

@@ -39,6 +39,47 @@
         "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
         "price":"$9"
     }
+],
+"Pizzamenuitem":[
+    {
+        "image": "/images/pizza1.png",
+        "title": "Pizza Margeritta",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$39"
+
+    },
+    {
+        "image": "images/pizza2.png",
+        "title": "Beer Pizza Crust",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$25"
+    },
+    {
+        "image": "images/pizza3.png",
+        "title": "Pizza Biscuit Bake",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$49"
+
+    },
+    {
+        "image": "images/pizza4.png",
+        "title": "Pizza Prosciutto",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$25"
+    },
+    {
+        "image": "images/pizza5.png",
+        "title": "Crazy Crust Pizza",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$29"
+
+    },
+    {
+        "image": "images/pizza6.png",
+        "title": "Low Carb Pizza",
+        "details":"Nullam nibh sem, imperdiet ultrices commodo a, vulputate vel ligula. Duis venenatis at eros sed egestas. Mauris rutrum quam risus, vel hendrerit dui tempor in.",
+        "price":"$49"
+    }
 ]
    
 }

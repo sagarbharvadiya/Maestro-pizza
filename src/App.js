@@ -8,6 +8,7 @@ import Clients from './Components/Client';
 import Delivery from './Components/Delivery';
 import Pizzamenu from './Components/Pizzamenu';
 import Pizzamenuitem from './Components/Pizzamenuitem';
+import Footer from './Components/Footer';
 
 
 
@@ -21,7 +22,8 @@ function App() {
       <Clients/>
       <Delivery/>
       <Pizzamenu/>
-     <Pizzamenuitem/>
+      <Pizzamenuitem/>
+     <Footer/>
       </>
       
     )

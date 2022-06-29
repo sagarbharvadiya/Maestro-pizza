@@ -11,11 +11,11 @@ const Navbar = () => {
             </div>
             <ul className='navbar-ul'>
                 <li><a href="#Home">HOME</a></li>
-                <li><a href="#Home">MENU</a></li>
-                <li><a href="#Home">ABOUT</a></li>
-                <li><a href="#Home">SHOP</a></li>
-                <li><a href="#Home">NEWS</a></li>
-                <li><a href="#Home">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
 
